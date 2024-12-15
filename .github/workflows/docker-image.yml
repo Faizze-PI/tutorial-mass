@@ -39,8 +39,8 @@ jobs:
 
       # Step 6: Build the Docker image
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag Alekseiy/myimages:1
+        run: docker build . --file Dockerfile --tag Alekseiy/myimages:2
 
       # Step 7: Push the Docker image to Docker Hub
       - name: Push the Docker image
-        run: docker push Alekseiy/myimages:1
+        run: docker push Alekseiy/myimages:2
